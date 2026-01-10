@@ -45,6 +45,7 @@
         <a href="<?= base_url('admin/gallery') ?>">Gallery</a>
         <a href="<?= base_url('admin/contact') ?>">Contact</a>
         <a href="<?= base_url('admin/messages') ?>">Messages</a>
+        <a href="<?= base_url('admin/setting') ?>">Setting</a>
         <a href="<?= base_url('admin/backup') ?>">Backup DB</a>
         <?php $u = $this->session->userdata('admin'); ?>
 

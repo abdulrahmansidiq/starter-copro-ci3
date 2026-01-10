@@ -24,7 +24,6 @@
                     Delete
                 </a>
             </td>
-
         </tr>
     <?php endforeach ?>
 </table>

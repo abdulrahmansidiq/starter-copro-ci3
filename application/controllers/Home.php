@@ -85,15 +85,4 @@ class Home extends CI_Controller
 
         redirect('home/contact');
     }
-
-
-
-    // public function contact()
-    // {
-    //     $data['title'] = 'Contact';
-    //     $data['seo'] = $this->db->get_where('seo', ['page' => 'home'])->row();
-    //     $this->load->view('layout/header', $data);
-    //     $this->load->view('home/contact');
-    //     $this->load->view('layout/footer');
-    // }
 }

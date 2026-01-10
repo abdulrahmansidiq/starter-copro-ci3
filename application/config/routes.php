@@ -64,5 +64,6 @@ $route['admin/dashboard'] = 'admin/dashboard';
 $route['admin/contact'] = 'admin/contact';
 $route['admin/contact/update'] = 'admin/contact/update';
 $route['admin/messages'] = 'admin/messages';
+$route['admin/setting'] = 'admin/setting';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
