@@ -10,4 +10,12 @@ class Messages extends Admin_Controller
         $this->load->view('admin/messages/index', $data);
         $this->load->view('admin/layout/footer');
     }
+
+    public function delete($id)
+    {
+
+        $this->db->delete('messages', ['id' => $id]);
+
+        redirect('admin/messages');
+    }
 }

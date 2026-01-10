@@ -83,7 +83,7 @@ class Home extends CI_Controller
             'created_at' => date('Y-m-d H:i:s')
         ]);
 
-        redirect('contact');
+        redirect('home/contact');
     }
 
 

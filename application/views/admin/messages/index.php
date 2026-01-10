@@ -17,6 +17,14 @@
             <td><?= $x->email ?></td>
             <td><?= $x->subject ?></td>
             <td><?= $x->created_at ?></td>
+            <td>
+                <a onclick="return confirm('Hapus pesan ini?')"
+                    class="btn btn-danger btn-sm"
+                    href="<?= base_url('admin/messages/delete/' . $x->id) ?>">
+                    Delete
+                </a>
+            </td>
+
         </tr>
     <?php endforeach ?>
 </table>
