@@ -42,7 +42,9 @@
         <a href="<?= base_url('admin/dashboard') ?>">Dashboard</a>
         <a href="<?= base_url('admin/pages') ?>">Pages</a>
         <a href="<?= base_url('admin/services') ?>">Services</a>
+        <a href="<?= base_url('admin/gallery') ?>">Gallery</a>
         <a href="<?= base_url('admin/contact') ?>">Contact</a>
+        <a href="<?= base_url('admin/messages') ?>">Messages</a>
         <a href="<?= base_url('admin/backup') ?>">Backup DB</a>
         <?php $u = $this->session->userdata('admin'); ?>
 

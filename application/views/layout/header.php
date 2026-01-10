@@ -4,9 +4,20 @@
 <head>
     <title><?= $title ?? 'Company' ?></title>
     <title><?= $seo->meta_title ?? 'Company' ?></title>
+    <title><?= $page->meta_title ?? 'Company Profile' ?></title>
     <meta name="description" content="<?= $seo->meta_desc ?>">
     <meta name="keywords" content="<?= $seo->meta_keywords ?>">
+    <meta name="description" content="<?= $page->meta_description ?? '' ?>">
+    <meta name="keywords" content="<?= $page->meta_keywords ?? '' ?>">
     <link href="<?= base_url('assets/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
+
+    <title>
+        <?= $page->meta_title ?? 'Company Profile' ?>
+    </title>
+
+    <meta name="description" content="<?= $page->meta_description ?? '' ?>">
+    <meta name="keywords" content="<?= $page->meta_keywords ?? '' ?>">
+
 
 </head>
 

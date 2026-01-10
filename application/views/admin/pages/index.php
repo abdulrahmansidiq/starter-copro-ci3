@@ -1,4 +1,4 @@
-<h3>Content Pages</h3>
+<h3>Pages</h3>
 
 <table class="table table-bordered">
     <tr>
