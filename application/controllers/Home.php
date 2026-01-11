@@ -1,6 +1,6 @@
 <?php
 
-class Home extends CI_Controller
+class Home extends MY_Controller
 {
 
 
@@ -9,6 +9,7 @@ class Home extends CI_Controller
         $data['title'] = 'Home';
         $data['sliders'] = $this->db->get('sliders')->result();
         $data['seo'] = $this->db->get_where('seo', ['page' => 'home'])->row();
+        $data['setting'] = $this->setting;
         $this->load->view('layout/header', $data);
         $this->load->view('home/index');
         $this->load->view('layout/footer');

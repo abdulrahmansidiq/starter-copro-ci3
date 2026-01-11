@@ -1,7 +1,7 @@
 <div class="container py-5 text-center">
     <h1>Welcome to MyCompany</h1>
     <p class="lead">We provide the best solutions for your business.</p>
-    <a class="btn btn-primary">Get Started</a>
+    <a class="btn btn-secondary">Get Started</a>
 </div>
 
 <div id="hero" class="carousel slide" data-bs-ride="carousel">

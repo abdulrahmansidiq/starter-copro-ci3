@@ -1,5 +1,5 @@
 <?php
-class Pages extends Admin_Controller
+class Pages extends MY_Controller
 {
 
     public function index()

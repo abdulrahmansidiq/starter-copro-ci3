@@ -1,6 +1,6 @@
 <?php
 
-class Setting extends Admin_Controller
+class Setting extends MY_Controller
 {
 
     public function index()

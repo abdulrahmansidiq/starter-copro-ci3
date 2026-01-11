@@ -1,6 +1,6 @@
 <?php
 
-class Contact extends Admin_Controller
+class Contact extends MY_Controller
 {
 
     public function index()

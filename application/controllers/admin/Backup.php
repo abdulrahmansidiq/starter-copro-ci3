@@ -1,6 +1,6 @@
 <?php
 
-class Backup extends Admin_Controller
+class Backup extends MY_Controller
 {
 
     public function index()

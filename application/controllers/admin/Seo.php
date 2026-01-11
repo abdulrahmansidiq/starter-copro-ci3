@@ -1,6 +1,6 @@
 <?php
 
-class Seo extends Admin_Controller
+class Seo extends MY_Controller
 {
 
     public function index()

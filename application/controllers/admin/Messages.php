@@ -1,6 +1,6 @@
 <?php
 
-class Messages extends Admin_Controller
+class Messages extends MY_Controller
 {
 
     public function index()

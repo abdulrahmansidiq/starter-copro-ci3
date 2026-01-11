@@ -1,6 +1,6 @@
 <?php
 
-class Sliders extends Admin_Controller
+class Sliders extends MY_Controller
 {
 
     public function index()

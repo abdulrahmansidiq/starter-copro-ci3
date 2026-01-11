@@ -2,13 +2,16 @@
 <html>
 
 <head>
-    <title><?= $title ?? 'Company' ?></title>
-    <title><?= $seo->meta_title ?? 'Company' ?></title>
-    <title><?= $page->meta_title ?? 'Company Profile' ?></title>
+    <title><?= $setting->company_name ?></title>
+    <title><?= $seo->meta_title ?? '<?= $setting->company_name ?>' ?></title>
+    <title><?= $page->meta_title ?? '<?= $setting->company_name ?>' ?></title>
     <meta name="description" content="<?= $seo->meta_desc ?>">
     <meta name="keywords" content="<?= $seo->meta_keywords ?>">
     <meta name="description" content="<?= $page->meta_description ?? '' ?>">
     <meta name="keywords" content="<?= $page->meta_keywords ?? '' ?>">
+    <?php if ($setting->favicon): ?>
+        <link rel="icon" href="<?= base_url('uploads/' . $setting->favicon) ?>">
+    <?php endif ?>
     <link href="<?= base_url('assets/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
 
     <title>
@@ -25,7 +28,8 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="<?= base_url() ?>">MyCompany</a>
+            <a class="navbar-brand" href="<?= base_url() ?>"><?= $setting->company_name ?>
+            </a>
 
 
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">

@@ -1,6 +1,6 @@
 <?php
 
-class Services extends Admin_Controller
+class Services extends MY_Controller
 {
 
     public function index()

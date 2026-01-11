@@ -1,6 +1,6 @@
 <?php
 
-class Auth extends CI_Controller
+class Auth extends MY_Controller
 {
 
     public function index()

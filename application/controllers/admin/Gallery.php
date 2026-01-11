@@ -1,6 +1,6 @@
 <?php
 
-class Gallery extends Admin_Controller
+class Gallery extends MY_Controller
 {
 
     public function index()
